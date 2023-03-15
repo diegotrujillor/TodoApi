@@ -12,18 +12,22 @@ public class TodoService : ITodoService
         _context = context;
     }
 
-    public dynamic TodoItems
+    public ICollection<TodoItemDTO> TodoItems
     {
-        get { return GetTodoItems(); }
+        get
+        {
+            return _context.TodoItems.Select(x => ItemToDTO(x))
+                                     .ToList();
+        }
     }
 
-    public async Task<dynamic> GetTodoItems()
+    public async Task<ICollection<TodoItemDTO>> GetTodoItems()
     {
         return await _context.TodoItems.Select(x => ItemToDTO(x))
                                        .ToListAsync();
     }
 
-    public async Task<dynamic> PostTodoItem(dynamic todoItemDTO)
+    public async Task<TodoItemDTO> PostTodoItem(TodoItemDTO todoItemDTO)
     {
         var todoItem = new TodoItem
         {
@@ -35,16 +39,16 @@ public class TodoService : ITodoService
         
         await _context.SaveChangesAsync();
 
-        return todoItem;
+        return _context.ItemToDTO(todoItem);
     }
 
-    public async Task PutTodoItem(long id, dynamic todoItemDTO)
+    public async Task PutTodoItem(long id, TodoItemDTO todoItemDTO)
     {
         var todoItem = await _context.TodoItems.FindAsync(id);
 
         if (todoItem is null)
         {
-            throw new ArgumentNullException();
+            throw new KeyNotFoundException();
         }
 
         todoItem.Name = todoItemDTO.Name;
@@ -59,7 +63,7 @@ public class TodoService : ITodoService
         
         if (todoItem is null)
         {
-            throw new ArgumentNullException();
+            throw new KeyNotFoundException();
         }
 
         _context.TodoItems.Remove(todoItem);

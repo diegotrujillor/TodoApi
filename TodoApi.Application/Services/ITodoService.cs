@@ -1,9 +1,12 @@
 namespace TodoApi.Application;
 
+using TodoApi.Domain;
+
 public interface ITodoService
 {
-    public Task<dynamic> GetTodoItems();
-    public Task<dynamic> PostTodoItem(dynamic todoItemDTO);
-    public Task PutTodoItem(long id, dynamic todoItemDTO);
-    public Task DeleteTodoItem(long id);
+    ICollection<TodoItemDTO> TodoItems { get; }
+    Task<ICollection<TodoItemDTO>> GetTodoItems();
+    Task<TodoItemDTO> PostTodoItem(TodoItemDTO todoItemDTO);
+    Task PutTodoItem(long id, TodoItemDTO todoItemDTO);
+    Task DeleteTodoItem(long id);
 }

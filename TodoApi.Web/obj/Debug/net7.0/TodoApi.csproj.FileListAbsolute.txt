@@ -313,11 +313,9 @@
 /Users/diegotrujillor/Stuff/Personal/Code/C#/TodoApi/TodoApi.Web/bin/Debug/net7.0/Microsoft.DotNet.Scaffolding.Shared.dll
 /Users/diegotrujillor/Stuff/Personal/Code/C#/TodoApi/TodoApi.Web/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
 /Users/diegotrujillor/Stuff/Personal/Code/C#/TodoApi/TodoApi.Web/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
-/Users/diegotrujillor/Stuff/Personal/Code/C#/TodoApi/TodoApi.Web/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
 /Users/diegotrujillor/Stuff/Personal/Code/C#/TodoApi/TodoApi.Web/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.InMemory.dll
 /Users/diegotrujillor/Stuff/Personal/Code/C#/TodoApi/TodoApi.Web/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
 /Users/diegotrujillor/Stuff/Personal/Code/C#/TodoApi/TodoApi.Web/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.SqlServer.dll
-/Users/diegotrujillor/Stuff/Personal/Code/C#/TodoApi/TodoApi.Web/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
 /Users/diegotrujillor/Stuff/Personal/Code/C#/TodoApi/TodoApi.Web/bin/Debug/net7.0/Microsoft.Identity.Client.dll
 /Users/diegotrujillor/Stuff/Personal/Code/C#/TodoApi/TodoApi.Web/bin/Debug/net7.0/Microsoft.Identity.Client.Extensions.Msal.dll
 /Users/diegotrujillor/Stuff/Personal/Code/C#/TodoApi/TodoApi.Web/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll
@@ -338,7 +336,6 @@
 /Users/diegotrujillor/Stuff/Personal/Code/C#/TodoApi/TodoApi.Web/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 /Users/diegotrujillor/Stuff/Personal/Code/C#/TodoApi/TodoApi.Web/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 /Users/diegotrujillor/Stuff/Personal/Code/C#/TodoApi/TodoApi.Web/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
-/Users/diegotrujillor/Stuff/Personal/Code/C#/TodoApi/TodoApi.Web/bin/Debug/net7.0/Mono.TextTemplating.dll
 /Users/diegotrujillor/Stuff/Personal/Code/C#/TodoApi/TodoApi.Web/bin/Debug/net7.0/Newtonsoft.Json.dll
 /Users/diegotrujillor/Stuff/Personal/Code/C#/TodoApi/TodoApi.Web/bin/Debug/net7.0/NuGet.Common.dll
 /Users/diegotrujillor/Stuff/Personal/Code/C#/TodoApi/TodoApi.Web/bin/Debug/net7.0/NuGet.Configuration.dll
@@ -352,7 +349,6 @@
 /Users/diegotrujillor/Stuff/Personal/Code/C#/TodoApi/TodoApi.Web/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
 /Users/diegotrujillor/Stuff/Personal/Code/C#/TodoApi/TodoApi.Web/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/diegotrujillor/Stuff/Personal/Code/C#/TodoApi/TodoApi.Web/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
-/Users/diegotrujillor/Stuff/Personal/Code/C#/TodoApi/TodoApi.Web/bin/Debug/net7.0/System.CodeDom.dll
 /Users/diegotrujillor/Stuff/Personal/Code/C#/TodoApi/TodoApi.Web/bin/Debug/net7.0/System.Composition.AttributedModel.dll
 /Users/diegotrujillor/Stuff/Personal/Code/C#/TodoApi/TodoApi.Web/bin/Debug/net7.0/System.Composition.Convention.dll
 /Users/diegotrujillor/Stuff/Personal/Code/C#/TodoApi/TodoApi.Web/bin/Debug/net7.0/System.Composition.Hosting.dll
@@ -556,3 +552,11 @@
 /Users/diegotrujillor/Stuff/Personal/Code/C#/TodoApi/TodoApi.Web/obj/Debug/net7.0/TodoApi.pdb
 /Users/diegotrujillor/Stuff/Personal/Code/C#/TodoApi/TodoApi.Web/obj/Debug/net7.0/TodoApi.genruntimeconfig.cache
 /Users/diegotrujillor/Stuff/Personal/Code/C#/TodoApi/TodoApi.Web/obj/Debug/net7.0/ref/TodoApi.dll
+/Users/diegotrujillor/Stuff/Personal/Code/C#/TodoApi/TodoApi.Web/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.Design.dll
+/Users/diegotrujillor/Stuff/Personal/Code/C#/TodoApi/TodoApi.Web/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+/Users/diegotrujillor/Stuff/Personal/Code/C#/TodoApi/TodoApi.Web/bin/Debug/net7.0/TodoApi.Application.dll
+/Users/diegotrujillor/Stuff/Personal/Code/C#/TodoApi/TodoApi.Web/bin/Debug/net7.0/TodoApi.Domain.dll
+/Users/diegotrujillor/Stuff/Personal/Code/C#/TodoApi/TodoApi.Web/bin/Debug/net7.0/TodoApi.Infrastructure.dll
+/Users/diegotrujillor/Stuff/Personal/Code/C#/TodoApi/TodoApi.Web/bin/Debug/net7.0/TodoApi.Infrastructure.pdb
+/Users/diegotrujillor/Stuff/Personal/Code/C#/TodoApi/TodoApi.Web/bin/Debug/net7.0/TodoApi.Application.pdb
+/Users/diegotrujillor/Stuff/Personal/Code/C#/TodoApi/TodoApi.Web/bin/Debug/net7.0/TodoApi.Domain.pdb

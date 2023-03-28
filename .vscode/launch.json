@@ -10,7 +10,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/TodoApi.Web/bin/Debug/net7.0/TodoApi.dll",
+            "program": "${workspaceFolder}/src/TodoApi.Web/bin/Debug/net7.0/TodoApi.dll",
             "args": [],
             "cwd": "${workspaceFolder}",
             "stopAtEntry": false,
@@ -23,7 +23,7 @@
                 "ASPNETCORE_ENVIRONMENT": "Development"
             },
             "sourceFileMap": {
-                "/Views": "${workspaceFolder}/TodoApi.Web/Views"
+                "/Views": "${workspaceFolder}/src/TodoApi.Web/Views"
             }
         },
         {
